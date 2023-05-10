@@ -1,12 +1,12 @@
 .grid-container-main {
   display: grid;
   grid-template-columns:auto;
-  background-color: #4590ca;
+  background-color: #95B1BF;
   padding: 10px;
 }
 .grid-item-main {
-  background-color: red;
-  border: 5px solid yellow;
+  background-color: #95B1BF;
+  border: 5px solid #6F848F;
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -17,7 +17,6 @@
 .grid-container {
   display: grid;
   grid-template-columns:25% 75%;
-  background-color: green;
   padding: 10px;
 }
 
@@ -36,7 +35,7 @@
 .grid-container-work{
   display: grid;
   grid-template-columns:auto auto;
-  background-color: black;
+  background-color: #95B1BF;
   padding: 10px;
 }
 
@@ -46,9 +45,7 @@
   padding: 1em;
 }
 
-/*Center Image in Grid*/
 .grid-item-work img{
-   /* width: 25%; */
   max-width: 100%;
   display:block;
    margin:0 auto; 
@@ -56,8 +53,7 @@
 
 
 .grid-item-work-first img{
-   width: 15%%; 
-  /*max-width: 100%; */
+   width: 15%; 
   display:block; 
 }
 
@@ -67,8 +63,8 @@
 
 
 .grid-item {
-  background-color: rgb(95, 95, 189);
-  border: 1px solid rgb(180, 149, 149);
+  background-color: #839CA8;
+  border: 1px solid #6F848F;
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -90,7 +86,7 @@
 .header {
     padding: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: gray;
+    background-color: #95B1BF;
     color: #ffffff;
 }
 
@@ -119,23 +115,18 @@
     margin-left: 25px;
 }
 
-.header nav ul li a:hover{
-  color: #33ccff;
-}
-
 .header img{
-  /* width:2%; */
-  width: 3.5rem; 
-  aspect-ratio: 1;
-   border-radius: 50%; 
+   border: 2px solid #6F848F;
+   border-radius: 4px;
+   padding: 5px;
+   width: 60px;
 }
 
-.profile-image{
-   border:4px solid yellow;
-   max-width: 100%;
-   display:block;
-   
+ img {
+  border: 1px solid #6F848F;
+  padding: 5px;
 }
+
 
 .subtitle{
   text-align: center;
@@ -158,4 +149,29 @@ article{
     margin-right: 20px;
     font-size: 25px;
     
+  }
+
+  
+  .main-app{
+    background-image: url("../images/sidehustle.png");
+    background-color: #cccccc;
+    height: 380px;
+    background-repeat: no-repeat;
+    opacity: 65%;
+  }
+
+  .main-app-bk{
+    background-color: #6F848F;
+  }
+
+  .main-app-bk img{
+    width:100%;
+  }
+
+  a:visited{
+    color: #343E42;
+  }
+
+  a:hover{
+    color:#1799DA;
   }
