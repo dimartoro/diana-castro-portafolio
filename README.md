@@ -9,7 +9,7 @@ This is my portafolio, a site for prospect employers to go through different app
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [DeployeedURL](#deployeedurl)
+- [DeployedURL](#deployedurl)
 - [Tests](#tests)
 - [Email](#email)
 - [GitHub](#github)
@@ -21,8 +21,8 @@ Create and administered GitHub Repo, merged multiple branches, Redme has all det
 ## Usage
 My Portafolio shows to employeers some very cool applications I have developed.
 
-## Deployeedurl
-https://github.com/dimartoro/diana-castro-portafolio.git
+## Deployedurl
+https://dimartoro.github.io/diana-castro-portafolio/
 
 ## Tests
 Accessing the applications through the Portafolio links will test it.
